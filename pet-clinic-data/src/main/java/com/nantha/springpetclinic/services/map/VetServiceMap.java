@@ -2,10 +2,11 @@ package com.nantha.springpetclinic.services.map;
 
 import com.nantha.springpetclinic.model.Vet;
 import com.nantha.springpetclinic.services.CrudService;
+import com.nantha.springpetclinic.services.VetService;
 
 import java.util.Set;
 
-public class VetService extends AbstractMapService<Vet, Long> implements CrudService<Vet, Long> {
+public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
 
     @Override
     public Set<Vet> findAll() {
