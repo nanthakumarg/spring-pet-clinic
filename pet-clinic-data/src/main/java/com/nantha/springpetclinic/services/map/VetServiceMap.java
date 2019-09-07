@@ -3,9 +3,11 @@ package com.nantha.springpetclinic.services.map;
 import com.nantha.springpetclinic.model.Vet;
 import com.nantha.springpetclinic.services.CrudService;
 import com.nantha.springpetclinic.services.VetService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
 
     @Override
