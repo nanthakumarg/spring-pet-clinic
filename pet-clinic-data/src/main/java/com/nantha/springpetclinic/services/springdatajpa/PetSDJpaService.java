@@ -3,7 +3,6 @@ package com.nantha.springpetclinic.services.springdatajpa;
 import com.nantha.springpetclinic.model.Pet;
 import com.nantha.springpetclinic.repositories.PetRepository;
 import com.nantha.springpetclinic.services.PetService;
-import com.sun.deploy.security.BadCertificateDialog;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
